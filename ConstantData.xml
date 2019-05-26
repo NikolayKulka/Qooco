@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<constant>
+    <LoginData id="1">
+        <login>nya</login>
+        <password>nya</password>
+    </LoginData>
+    <baseData id="1">
+        <waiterTime>60</waiterTime>
+        <mailSend>testsend25052019@gmail.com</mailSend>
+        <mailPassword>12Qwaszx~</mailPassword>
+        <mailList>testsend25052019@gmail.com</mailList>
+    </baseData>
+</constant>

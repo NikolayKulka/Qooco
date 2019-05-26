@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ALL Tests" allow-return-values="true">
+    <test name="COMPLEX API">
+        <classes >
+            <class name="NewSite.NewSite_HappyPath">
+                <methods>
+                    <include name="LoginPositive"/>
+                    <include name="LoginNegative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
