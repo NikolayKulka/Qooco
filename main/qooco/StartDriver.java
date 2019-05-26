@@ -40,7 +40,7 @@ public class StartDriver extends  StatusResult {
         sessionID = RandomStringUtils.randomNumeric(10);
 
         capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.8.0"); 
+        capabilities.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.8.0");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
