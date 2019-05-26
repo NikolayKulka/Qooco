@@ -40,12 +40,9 @@ public class StartDriver extends  StatusResult {
         sessionID = RandomStringUtils.randomNumeric(10);
 
         capabilities = new DesiredCapabilities();
-        capabilities.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.8.0"); //1.8.1 // 1.9.0 ////1.8.0
-       /* capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0");*///5.1 8.0
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9"); //5.1.1 //8.1.0
-       /* capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");*/
+        capabilities.setCapability(MobileCapabilityType.APPIUM_VERSION, "1.8.0"); 
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
-        /*capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel_2_API_26");*///Nexus_6_API_16 Pixel_2_API_26
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android");
         capabilities.setCapability(MobileCapabilityType.APP, aPPlocation);
         capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "");
