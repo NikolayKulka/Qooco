@@ -42,8 +42,6 @@ public class StatusResult {
                 break;
             }
         }
-        SetUpFixture startTest = new SetUpFixture();
-        startTest.EndDate();
         mailBody =getHead(successTest,failTest,skipTest,SkippTest,SuccessTest,FailureTest);
         return mailBody;
     }
