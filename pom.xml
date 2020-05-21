@@ -110,7 +110,7 @@
         <org.glassfish.jersey.core>2.26-b03</org.glassfish.jersey.core>
         <org.apache.poi>3.17</org.apache.poi>
         <ru.yandex.qatools.ashot>1.1</ru.yandex.qatools.ashot>
-        <net.sourceforge.htmlunit>2.27</net.sourceforge.htmlunit>
+        <net.sourceforge.htmlunit>2.37.0</net.sourceforge.htmlunit>
     </properties>
     <repositories>
         <repository>
