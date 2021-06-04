@@ -99,7 +99,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <org.apache.httpcomponents>4.5.3</org.apache.httpcomponents>
+        <org.apache.httpcomponents>4.5.13</org.apache.httpcomponents>
         <com.j2html>1.2.2</com.j2html>
         <org.testng>6.14.2</org.testng>
         <!--<org.seleniumhq.selenium>3.11.0</org.seleniumhq.selenium>-->
